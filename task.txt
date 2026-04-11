@@ -1,0 +1,25 @@
+/*Sortierung S&P Ratings
+• Implementieren Sie eine Sortierung von Ländern anhand ihrer
+Kreditratings (Standard & Poor's, 2025) in C++
+- Ihre Implementierung sollte
+ Datei SP_Rating25.txt (CSV Format) einlesen (siehe Moodle)
+ Bei unerlaubten Rating-Angaben einen Fehler ausgeben und
+das betreffende Land überspringen
+● Eine erlaubte Rating-Angabe besteht aus dem ein- bis
+dreifachen Auftreten der Buchstaben 'A' oder 'B' oder
+'C' gefolgt von einem optionalen '+' oder '-'. Allerdings
+darf die Rating-Höchstnote 'AAA' (Triple-A) nicht von '+'
+oder '-' gefolgt werden.
+Alle Länder sortiert nach ihrem Rating auf der Console
+ausgeben.
+● Alle A-Ratings (d.h. Solche die ein 'A' enthalten) sind
+besser als B-Ratings, welche besser als C-Ratings sind.
+● Ratings mit 3 Buchstaben sind besser als solche mit 2,
+welche besser als Ratings mit 1 Buchstaben sind (z.B.
+'BBB-' ist besser als 'BB+' ist besser als 'B').
+● Ratings mit gleicher Buchstabenanzahl differenzieren
+sich durch optionales '+' und '-' (z.B. 'CCC+' ist besser
+als 'CCC' ist besser als 'CCC-').
+- Versuchen Sie, Ihre Implementierung so übersichtlich
+und modular wie möglich zu halten. Wie würden Sie
+jemandem diese Implementierung erklären?*/
