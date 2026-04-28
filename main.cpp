@@ -39,6 +39,8 @@ ParsedInput parse_line(const std::string& input) {              //This is the in
 }
 
 
+//For the sorting we could assign points to each predicate, And the countries would then be sorted according to their scores
+
 
 int main(){
 
